@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr-CH"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Politique de confidentialité — App familiale</title>
+<style>body{font-family:Inter,Arial,sans-serif;max-width:780px;margin:2rem auto;padding:0 1rem;line-height:1.55;color:#1c2541}h1{color:#071B3C}h2{margin-top:2rem;color:#071B3C;border-bottom:1px solid #dde}table{border-collapse:collapse;width:100%;font-size:.92rem}td,th{border:1px solid #ccd;padding:6px 8px;text-align:left;vertical-align:top}th{background:#eef}</style></head><body>
+<h1>Politique de confidentialité — App familiale</h1>
+<p>Dernière mise à jour : 9 octobre 2026. Application : « App familiale » (identifiant <code>ch.blessperey.famille</code>).</p>
+
+<h2>1. Qui sommes-nous</h2>
+<p>App familiale est une application Android <strong>privée</strong>, destinée à une seule famille (deux parents et leurs enfants). Elle n'est pas ouverte au public : seules les personnes invitées par la famille peuvent s'y connecter. Le responsable du traitement est Stanislas Bless, à titre privé. Contact : <a href="mailto:stanislas.bless@gmail.com">stanislas.bless@gmail.com</a>.</p>
+
+<h2>2. Données traitées et finalités</h2>
+<table>
+<tr><th>Données</th><th>Finalité</th></tr>
+<tr><td>Adresse e-mail du compte (et identifiant de compte)</td><td>Connexion par code à usage unique envoyé par e-mail, rattachement à la famille, invitation du second parent.</td></tr>
+<tr><td>Noms des membres de la famille (parents et enfants, les enfants n'ont pas de compte), dates de naissance, couleur, informations de fiche (école, contacts utiles)</td><td>Afficher et attribuer les événements, tâches et rappels.</td></tr>
+<tr><td>Calendrier : événements, rendez-vous, activités, participants, rappels, heures calmes</td><td>Agenda partagé, rappels, notifications.</td></tr>
+<tr><td>Tâches et listes de courses</td><td>Organisation du quotidien.</td></tr>
+<tr><td><strong>Données de santé par membre</strong> : allergies, médecin traitant et contacts, médicaments en cours et prises, vaccins et prochaines doses, documents de santé (photos ou PDF)</td><td>Tenue de fiches personnelles de la famille et rappels. Visibles uniquement des parents membres de la famille. Il ne s'agit pas d'un dispositif médical et l'application ne fournit aucun avis médical.</td></tr>
+<tr><td>Contrats d'assurance (assureur, échéances, membres couverts), documents et photos associés, bons cadeaux</td><td>Suivi des contrats, rappels de résiliation et d'échéance.</td></tr>
+<tr><td>Jeton de notification push (Expo/Android) et modèle d'appareil</td><td>Envoyer les notifications à l'appareil concerné.</td></tr>
+<tr><td>Photos et fichiers que vous choisissez vous-même (appareil photo, galerie, PDF partagé vers l'app)</td><td>Joindre un document à une fiche ou un contrat. L'appareil photo n'est utilisé que sur action de l'utilisateur ; aucun accès au micro ni à la localisation.</td></tr>
+</table>
+<p>L'application n'utilise <strong>aucun outil d'analyse d'audience ni de suivi publicitaire</strong>, et ne contient aucune publicité.</p>
+
+<h2>3. Où sont stockées les données</h2>
+<p>Les données sont hébergées chez <strong>Supabase</strong> (base de données PostgreSQL et stockage de fichiers), dans la région <strong>Suisse (Zurich, eu-central-2)</strong>. La connexion entre l'application et le serveur est chiffrée (HTTPS/TLS). Chaque famille est strictement isolée des autres par des règles d'accès au niveau de la base (Row Level Security). Les documents sont dans un espace de stockage privé, accessible aux seuls membres de la famille.</p>
+
+<h2>4. Services tiers (sous-traitants)</h2>
+<ul>
+<li><strong>Supabase</strong> : base de données, authentification, stockage de fichiers, fonctions serveur (Zurich).</li>
+<li><strong>Brevo</strong> (envoi d'e-mails transactionnels) : sert uniquement à envoyer le code de connexion à l'adresse e-mail du compte. Aucun e-mail promotionnel.</li>
+<li><strong>Expo (EAS / service de notifications push)</strong> et <strong>Google Firebase Cloud Messaging</strong> : acheminent les notifications vers l'appareil. Le texte d'une notification ne contient jamais de détail médical.</li>
+<li><strong>Google Agenda</strong> (option) : l'application peut recopier les événements de la famille vers un agenda Google « Famille » partagé, à sens unique (rien n'est relu depuis Google). Elle <strong>ne modifie et ne supprime que les événements qu'elle a elle-même créés</strong>. Les titres, dates, lieux et descriptions des événements concernés sont transmis à Google pour cet usage.</li>
+<li><strong>GitHub</strong> : une sauvegarde hebdomadaire de la base est conservée sous forme d'archive <strong>chiffrée</strong>, accessible uniquement au responsable.</li>
+</ul>
+<p>Nous ne vendons ni ne louons aucune donnée, et nous ne les partageons avec personne d'autre que ces prestataires techniques.</p>
+
+<h2>5. Durée de conservation</h2>
+<p>Les données sont conservées tant que la famille utilise l'application. Les sauvegardes chiffrées sont conservées 90 jours puis supprimées. Après suppression d'un compte ou d'une famille, les données sont effacées de la base, et disparaissent des sauvegardes au plus tard 90 jours plus tard.</p>
+
+<h2>6. Vos droits, suppression</h2>
+<p>Vous pouvez demander à tout moment l'accès, la rectification ou la suppression de vos données (ou de celles de votre famille), en écrivant à <a href="mailto:stanislas.bless@gmail.com">stanislas.bless@gmail.com</a> avec l'adresse e-mail du compte. Nous répondons dans un délai de 30 jours. Les parents peuvent aussi modifier ou supprimer eux-mêmes événements, tâches, listes, contrats et documents dans l'application. Cette politique respecte la loi fédérale suisse sur la protection des données (LPD) et, le cas échéant, le RGPD.</p>
+
+<h2>7. Sécurité</h2>
+<p>Chiffrement en transit (TLS), accès par code à usage unique envoyé par e-mail, accès restreint aux personnes invitées, isolation entre familles, stockage de fichiers privé, sauvegardes chiffrées. Aucune sécurité n'est absolue ; en cas d'incident touchant vos données, nous vous en informerons.</p>
+
+<h2>8. Enfants</h2>
+<p>L'application est réservée aux adultes (18 ans et plus). Les enfants de la famille n'ont pas de compte ; leurs informations sont saisies et gérées uniquement par leurs parents.</p>
+
+<h2>9. Modifications</h2>
+<p>Cette politique peut évoluer ; la date de mise à jour figure en haut de la page.</p>
+</body></html>
