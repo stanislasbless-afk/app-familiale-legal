@@ -1,1 +1,1 @@
-Politique de confidentialité de l'App familiale. Page publiée via GitHub Pages.
+Politique de confidentialité de Hjem. Page publiée via GitHub Pages.
